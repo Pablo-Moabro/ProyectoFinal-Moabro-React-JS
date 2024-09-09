@@ -1,0 +1,16 @@
+.item-details{
+    display: flex;
+    justify-content: center;
+    max-width: 900px;
+    max-height: 700px;
+    margin: 20px auto;
+    
+}
+
+.item-details__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #f0f0f0;
+    border-left: 1px solid;
+}

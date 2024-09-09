@@ -1,0 +1,34 @@
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0 20px;
+    background-color: rgb(61, 2, 61);
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.menu__item {
+    display: flex;
+    align-items: center;
+}
+
+.menu__item a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.menu__item a:hover {
+    background-color: rgb(44, 2, 44);
+    border-radius: 8px;
+    transform: scale(1.05);
+    transition: 300ms;
+}

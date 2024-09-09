@@ -1,0 +1,168 @@
+[
+    {
+        "id": 1,
+        "title": "Placa de Video ASUS Dual GeForce RTX 3050 8GB GDDR6 V2 OC",
+        "price": 500000,
+        "category": "Asus",
+        "dues": 3,
+        "img": "/src/assets/nvidia/asus/ASUS dual geforce rtx 3050 8gb gddr6 v2 oc/1 - ASUS RTX 3050 8GB.jpg",
+        "stock": 6
+
+    },
+
+    {
+        "id": 2,
+        "title": "Placa de Video ASUS Dual GeForce RTX 3060 12GB GDDR6 OC V2",
+        "price": 750000,
+        "category": "Asus",
+        "dues": 3,
+        "img": "/src/assets/nvidia/asus/ASUS Dual GeForce RTX 3060 12GB GDDR6 OC V2/Placa de Video ASUS Dual GeForce RTX 3060 12GB GDDR6 OC V2.jpg",
+        "stock": 6
+
+    },
+
+    {
+        "id": 3,
+        "title": "Placa de Video ASUS Dual GeForce RTX 4060 8GB GDDR6 White OC",
+        "price": 500000,
+        "category": "Asus",
+        "dues": 3,
+        "img": "/src/assets/nvidia/asus/ASUS Dual GeForce RTX 4060 8GB GDDR6 White OC/Placa de Video ASUS Dual GeForce RTX 4060 8GB GDDR6 White OC.jpg",
+        "stock": 6
+
+    },
+
+    {
+        "id": 4,
+        "title": "Placa de Video ASUS GeForce RTX 4060 Ti 8GB GDDR6 ROG STRIX OC",
+        "price": 500000,
+        "category": "Asus",
+        "dues": 3,
+        "img": "/src/assets/nvidia/asus/ASUS GeForce RTX 4060 Ti 8GB GDDR6 ROG STRIX OC/Placa de Video ASUS GeForce RTX 4060 Ti 8GB GDDR6 ROG STRIX OC.jpg",
+        "stock": 6
+
+    },
+
+    {
+        "id": 5,
+        "title": "Placa de Video ASUS TUF GeForce GTX 1650 4GB GDDR6 GAMING V2 OC",
+        "price": 500000,
+        "category": "Asus",
+        "dues": 3,
+        "img": "/src/assets/nvidia/asus/ASUS TUF GeForce GTX 1650 4GB GDDR6 GAMING V2 OC/Placa de Video ASUS TUF GeForce GTX 1650 4GB GDDR6 GAMING V2 OC.jpg",
+        "stock": 6
+
+    },
+
+    {
+        "id": 6,
+        "title": "Placa de Video ASUS TUF GeForce RTX 4060 Ti GDDR6 8GB Gaming OC",
+        "price": 500000,
+        "category": "Asus",
+        "dues": 3,
+        "img": "/src/assets/nvidia/asus/ASUS TUF GeForce RTX 4060 Ti GDDR6 8GB Gaming OC/Placa de Video ASUS TUF GeForce RTX 4060 Ti GDDR6 8GB Gaming OC.jpg",
+        "stock": 6
+
+    },
+
+    {
+        "id": 7,
+        "title": "Placa de Video MSI GeForce GTX 1650 4GB GDDR6 Ventus XS OC",
+        "price": 500000,
+        "category": "MSI",
+        "dues": 3,
+        "img": "/src/assets/nvidia/msi/MSI GeForce GTX 1650 4GB GDDR6 Ventus XS OC/MSI GeForce GTX 1650 4GB GDDR6 Ventus XS OC.jpg",
+        "stock": 6
+    },
+
+    {
+        "id": 8,
+        "title": "Placa de Video MSI GeForce RTX 3050 8GB GDDR6 VENTUS 2X XS OC",
+        "price": 500000,
+        "category": "MSI",
+        "dues": 3,
+        "img": "/src/assets/nvidia/msi/MSI GeForce RTX 3050 8GB GDDR6 VENTUS 2X XS OC/MSI GeForce RTX 3050 8GB GDDR6 VENTUS 2X XS OC.jpg",
+        "stock": 6
+    },
+
+    {
+        "id": 9,
+        "title": "Placa de Video MSI GeForce RTX 3060 12GB GDDR6 VENTUS 2X OC",
+        "price": 500000,
+        "category": "MSI",
+        "dues": 3,
+        "img": "/src/assets/nvidia/msi/MSI GeForce RTX 3060 12GB GDDR6 VENTUS 2X OC/MSI GeForce RTX 3060 12GB GDDR6 VENTUS 2X OC.jpg",
+        "stock": 6
+    },
+
+    {
+        "id": 10,
+        "title": "Placa de Video MSI GeForce RTX 4060 Ti 8GB GDDR6 Ventus 3X Black OC",
+        "price": 500000,
+        "category": "MSI",
+        "dues": 3,
+        "img": "/src/assets/nvidia/msi/MSI GeForce RTX 4060 Ti 8GB GDDR6 Ventus 3X Black OC/MSI GeForce RTX 4060 Ti 8GB GDDR6 Ventus 3X Black OC.jpg",
+        "stock": 6
+    },
+
+    {
+        "id": 11,
+        "title": "Placa de Video MSI GeForce RTX 4060 Ti 16GB GDDR6 GAMING X",
+        "price": 500000,
+        "category": "MSI",
+        "dues": 3,
+        "img": "/src/assets/nvidia/msi/MSI GeForce RTX 4060 Ti 16GB GDDR6 GAMING X/MSI GeForce RTX 4060 Ti 16GB GDDR6 GAMING X.jpg",
+        "stock": 6
+    },
+
+    {
+        "id": 12,
+        "title": "Placa de Video MSI GeForce RTX 4060 Ti 16GB GDDR6 GAMING X Slim White",
+        "price": 500000,
+        "category": "MSI",
+        "dues": 3,
+        "img": "/src/assets/nvidia/msi/MSI GeForce RTX 4060 Ti 16GB GDDR6 GAMING X Slim White/MSI GeForce RTX 4060 Ti 16GB GDDR6 GAMING X Slim White.jpg",
+        "stock": 6
+    },
+
+    {
+        "id": 13,
+        "title": "Placa de Video MSI GeForce RTX 4070 SUPER 12GB GDDR6X GAMING X SLIM",
+        "price": 500000,
+        "category": "MSI",
+        "dues": 3,
+        "img": "/src/assets/nvidia/msi/MSI GeForce RTX 4070 SUPER 12GB GDDR6X GAMING X SLIM/MSI GeForce RTX 4070 SUPER 12GB GDDR6X GAMING X SLIM.jpg",
+        "stock": 6
+    },
+
+    {
+        "id": 14,
+        "title": "Placa de Video Zotac GeForce RTX 3060 12GB GDDR6",
+        "price": 500000,
+        "category": "Zotac",
+        "dues": 3,
+        "img": "/src/assets/nvidia/zotac/Zotac GeForce RTX 3060 12GB GDDR6/Zotac GeForce RTX 3060 12GB GDDR6.jpg",
+        "stock": 6
+    },
+
+    {
+        "id": 15,
+        "title": "Placa de Video Zotac GeForce RTX 3070 Ti 8GB GDDR6X Trinity",
+        "price": 500000,
+        "category": "Zotac",
+        "dues": 3,
+        "img": "/src/assets/nvidia/zotac/Zotac GeForce RTX 3070 Ti 8GB GDDR6X Trinity/Zotac GeForce RTX 3070 Ti 8GB GDDR6X Trinity.jpg",
+        "stock": 6
+    },
+
+    {
+        "id": 16,
+        "title": "Placa de Video Zotac GeForce RTX 4060 Ti 8GB GDDR6 Twin Edge",
+        "price": 500000,
+        "category": "Zotac",
+        "dues": 3,
+        "img": "/src/assets/nvidia/zotac/Zotac GeForce RTX 4060 Ti 8GB GDDR6 Twin Edge/Zotac GeForce RTX 4060 Ti 8GB GDDR6 Twin Edge.jpg",
+        "stock": 6
+    }
+       
+]
