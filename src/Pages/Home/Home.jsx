@@ -17,17 +17,17 @@ const Home = () => {
             </section>
             
             <section className="category">
-                <Link to="/store/category/asus">
+                <Link to="/store/category/Asus">
                 <picture className="category-card">
                     <img className="category-card__img" src={asusLogo} alt="asus" />
                 </picture>
                 </Link>
-                <Link to="/store/category/msi">
+                <Link to="/store/category/MSI">
                 <picture className="category-card">
                     <img className="category-card__img" src={msiLogo} alt="msi" />
                 </picture>
                 </Link>
-                <Link to="/store/category/zotac">
+                <Link to="/store/category/Zotac">
                 <picture className="category-card">
                     <img className="category-card__img" src={zotacLogo} alt="" />
                 </picture>

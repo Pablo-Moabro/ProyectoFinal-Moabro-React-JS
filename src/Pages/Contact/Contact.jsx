@@ -1,11 +1,10 @@
+import ContactForm from "../../components/ContactForm/ContactForm";
 
 
 const Contact = () => {
 
     return(
-        <>
-        <h1>Aca va el formulario de contacto</h1>
-        </>
+        <ContactForm/>
     );
 };
 

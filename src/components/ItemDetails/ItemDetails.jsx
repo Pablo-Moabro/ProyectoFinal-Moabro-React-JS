@@ -1,8 +1,20 @@
+import ItemCount from "../ItemCount/ItemCount";
 import "./ItemDetails.css"
+import { CartContext } from "../../context/cartContext";
+import { useContext } from "react";
 
-const ItemDetails = ({ title, img, price, category }) => {
+
+const ItemDetails = ({ id, title, img, price, dues, stock  }) => {
+
+    const { addItem } = useContext(CartContext);
     
     
+    const handleAdd = (quantity) =>{
+            addItem({id, title, img, price, quantity, dues, stock})
+           
+    }
+
+
     return(
         <section className="item-details">
             <picture className="item-details__picture">
@@ -10,11 +22,14 @@ const ItemDetails = ({ title, img, price, category }) => {
             </picture>
             <article className="item-details__info">
                 <h2 className="item-details__info--title">{title}</h2>
-                <h3 className="item-details__info--price">Precio ${price}</h3>
-                <p>{category}</p>
-            <form action="">
-                <button>Agregar al carrito</button>
-            </form>
+                <h5 className="item-details__info--id">ID:{id}</h5>
+                <h2 className="item-details__info--price">Precio ${price}</h2>
+                <p className="item-details__info--dues">{dues} Cuotas sin interés</p>
+                <p className="item-details__info--stock">Stock: {stock}</p>
+                <ItemCount initial={1} stock={stock} onAdd={handleAdd} />
+                
+           
+            
             </article>
         </section>
     );

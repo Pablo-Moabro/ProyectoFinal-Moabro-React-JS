@@ -1,17 +1,9 @@
-.itemcount--container{
+.cart-item-count{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
     align-items: center;
 }
 
-.itemcount{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.itemcount--decrease{
+.cart-item-count__decrease{
     height: 30px;
     width: 40px;
     background-color: #283097;
@@ -19,14 +11,14 @@
     border-radius: 8px;
 }
 
-.itemcount--decrease:hover{
+.cart-item-count__decrease:hover{
     background-color: #18208d;
     transform: scale(1.1);
     transition: 300ms;
     cursor: pointer;
 }
 
-.itemcount--increase{
+.cart-item-count__increase{
     height: 30px;
     width: 40px;
     background-color: #283097;
@@ -34,14 +26,14 @@
     border-radius: 8px;
 }
 
-.itemcount--increase:hover{
+.cart-item-count__increase:hover{
     background-color: #18208d;
     transform: scale(1.1);
     transition: 300ms;
     cursor: pointer;
 }
 
-.itemcount--num{
+.cart-item-count__quantity{
     height: 30px;
     width: 40px;
     border: 1px solid;
@@ -50,19 +42,4 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.itemcount--add{
-    height: 30px;
-    width: 130px;
-    border-radius: 8px;
-    background-color: #283097;
-    color: white;
-}
-
-.itemcount--add:hover{
-    background-color: #18208d;
-    transform: scale(1.1);
-    transition: 300ms;
-    cursor: pointer;
 }

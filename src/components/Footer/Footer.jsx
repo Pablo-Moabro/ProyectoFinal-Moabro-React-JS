@@ -1,6 +1,7 @@
 import "./Footer.css"
 import logo from "../../assets/LogoVicius.png"
 import Menu from "../Menu/Menu";
+import { Link } from "react-router-dom";
 
 const links = [
     {
@@ -24,11 +25,11 @@ const Footer = () => {
     return(
         <footer className="footer">
             <div className="footer-container">
-                <a className="footer__logo" href="/">
+                <Link className="footer__logo" to="/">
                     <figure className="footer__img">
                         <img src={logo} alt="" />
                     </figure>
-                </a>
+                </Link>
             </div>
             <Menu className="footer-menu" links={links}/>
         </footer>

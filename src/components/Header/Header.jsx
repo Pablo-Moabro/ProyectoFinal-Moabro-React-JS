@@ -2,6 +2,7 @@ import "./Header.css";
 import logo from "../../assets/LogoVicius.png";
 import Menu from "../Menu/Menu";
 import CartWidget from "../CartWidget/CartWidget";
+import { Link } from "react-router-dom";
 
 const links = [
     {
@@ -23,15 +24,15 @@ const Header = () => {
     return (
         <header>
             <nav className="navbar-container">
-                <a href="/" className="navbar__logo">
+                <Link to="/" className="navbar__logo">
                     <figure className="navbar__img">
                         <img src={logo} alt="" />
                     </figure>
-                </a>
+                </Link>
                 <Menu className="navbar" links={links}>
-                    <a href="#" className="navbar__link-button">
+                    <div className="navbar__link-button">
                         <CartWidget/>
-                    </a>
+                    </div>
                 </Menu>
 
 

@@ -7,10 +7,39 @@
     
 }
 
+.item-details__picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+
 .item-details__info{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: #f0f0f0;
+    background-color: #fffbfb;
     border-left: 1px solid;
+}
+
+.item-details__info--title{
+    margin-left: 10px;
+}
+
+.item-details__info--id{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+.item-details__info--price{
+    margin: 0 auto;
+}
+
+.item-details__info--dues{
+    margin: 0 auto;
+}
+
+.item-details__info--stock{
+    margin: 0 auto;
 }

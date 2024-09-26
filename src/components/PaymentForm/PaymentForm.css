@@ -1,0 +1,43 @@
+.payment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+    min-height: 400px;
+    margin: 10px;
+}
+
+.payment-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-form__container{
+    padding: 10px 10px;
+}
+
+.payment-form__input{
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.payment-btn{
+    height: 50px;
+    width: 300px;
+    background-color: #283097;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.payment-btn:hover{
+    background-color: #18208d;
+    transform: scale(1.1);
+    transition: 300ms;
+}

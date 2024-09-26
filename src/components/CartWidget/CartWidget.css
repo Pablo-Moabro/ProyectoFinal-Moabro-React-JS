@@ -5,11 +5,13 @@
 
 .cart-widget__cart{
     font-size: 32px;
+    color: white;
 }
 
-.cart-widget:hover .cart-widget__cart {
-    color: rgb(44, 2, 44);
+.cart-widget:hover{
+    /* color: rgb(44, 2, 44); */
     transform: scale(1.05);
     transition: 300ms;
-    filter: drop-shadow(0 0 5px crimson);
+    /* filter: drop-shadow(0 0 5px crimson); */
+    
 }

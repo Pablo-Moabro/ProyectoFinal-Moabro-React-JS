@@ -18,5 +18,3 @@ const Menu = ( {links, className, children} ) => {
 };
 
 export default Menu;
-
-// {<LinkButton className={className} href={links.href} label={links.label}/>}

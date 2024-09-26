@@ -1,18 +1,45 @@
+import "./Details.css"
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import ItemDetails from "../../components/ItemDetails/ItemDetails";
+import { doc, getDoc } from "firebase/firestore";
+import { db } from "../../config/firebase.config";
+import Spinner from "../../components/Spinner/Spinner";
+
+
 
 const Details = () => {
     const { id } = useParams();
     let [item, setItem] = useState(null)
+    let [loading, setLoading] = useState(true)
+    
+    
+    
     useEffect( () => {
-        fetch('/src/data/items.json')
-        .then(res => res.json())
-        .then(data => setItem(data.find(item => item.id == id)))
+
+        setLoading(true);
+
+        const itemDetails = doc(db, 'Items', id)
+        getDoc(itemDetails)
+        .then((snapshot) => {
+            if(snapshot.exists()){
+                setItem({id:snapshot.id, ...snapshot.data() })
+            }
+        })
+        .catch((error) => {
+            console.log('Error al buscar items', error)
+        })
+        .finally(() => setLoading(false))
+        
     }, [])
+
+
+
     
     return(
-        <ItemDetails {...item} />
+        <>
+        {loading ? <div className="spinner-container"><Spinner/></div> : <ItemDetails {...item} />}
+        </>
     );
 };
 
