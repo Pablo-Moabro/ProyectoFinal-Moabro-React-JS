@@ -10,7 +10,7 @@ const Item = ( {title, img, price, category, dues, id, tag, stock} ) => {
             <Link to={`/details/${id}`}>
                 <picture className="item__picture">
                     <span className="item__picture--pill">{tag}</span>
-                    <img className="item__picture--img" src={img} alt={title} />
+                    <img className="item__picture--img" src={`${import.meta.env.BASE_URL}${img}`} alt={title} />
                 </picture>
                 <div className="item__info">
                     <h3 className="item__info--title">{category}</h3>

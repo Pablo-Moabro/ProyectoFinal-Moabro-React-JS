@@ -18,7 +18,7 @@ const ItemDetails = ({ id, title, img, price, dues, stock  }) => {
     return(
         <section className="item-details">
             <picture className="item-details__picture">
-                <img className="item-details__picture--img" src={img} alt="" />
+                <img className="item-details__picture--img" src={`${import.meta.env.BASE_URL}${img}`} alt="" />
             </picture>
             <article className="item-details__info">
                 <h2 className="item-details__info--title">{title}</h2>

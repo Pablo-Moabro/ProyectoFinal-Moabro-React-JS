@@ -30,7 +30,7 @@ const Cart = () => {
                             {cartItems.map(item => (
                                 <div key={item.id} className="cart-item">
                                     <picture className="cart-item__picture">
-                                    <img src={item.img} alt={item.title} className="cart-item__img" />
+                                    <img src={`${import.meta.env.BASE_URL}${item.img}`} alt={item.title} className="cart-item__img" />
                                     </picture>
                                     <div className="cart-item__details">
                                         <h3>{item.title}</h3>
