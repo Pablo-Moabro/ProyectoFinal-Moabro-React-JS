@@ -16,7 +16,7 @@ function App() {
 
   return (
    
-    <BrowserRouter>
+    <BrowserRouter basename='/ProyectoFinal-Moabro-React-JS/'>
       <CartContextProvider>
         <BaseLayOut>
             <Routes>
